@@ -1,0 +1,7 @@
+<sensei>
+  <analysis type="PosthocIO" mode="visit" output_dir="./" enabled="1">
+    <mesh name="mesh">
+        <cell_arrays> data </cell_arrays>
+    </mesh>
+  </analysis>
+</sensei>

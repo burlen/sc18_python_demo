@@ -1,0 +1,4 @@
+<sensei>
+  <analysis type="catalyst" pipeline="pythonscript"
+    filename="configs/random_2d_64_catalyst.py" enabled="1" />
+</sensei>

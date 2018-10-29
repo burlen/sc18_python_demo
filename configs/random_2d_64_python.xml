@@ -1,0 +1,11 @@
+<sensei>
+  <analysis type="python" script_file="configs/volume_above_sm.py" enabled="1">
+    <initialize_source>
+threshold=1.0
+mesh='mesh'
+array='data'
+cen=1
+out_file='random_2d_64_python.png'
+     </initialize_source>
+  </analysis>
+</sensei>
