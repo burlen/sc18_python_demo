@@ -2,9 +2,9 @@
 
 n=4
 b=64
-dt=0.2
+dt=0.05
 
-echo "module load sensei/2.1.1-libsim-shared"
+echo "+ module load sensei/2.1.1-libsim-shared"
 module load sensei/2.1.1-libsim-shared
 
 set -x

@@ -2,7 +2,7 @@
 
 n=4
 b=64
-dt=0.1
+dt=0.05
 
 echo "+ module load sensei/2.1.1-catalyst-shared"
 module load sensei/2.1.1-catalyst-shared
