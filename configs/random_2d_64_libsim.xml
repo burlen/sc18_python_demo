@@ -1,8 +1,0 @@
-<sensei>
-  <!-- options="-debug 5" -->
-  <analysis type="libsim" mode="batch" frequency="1"
-            session="configs/random_2d_64_libsim.session"
-            image-filename="random_2d_64_libsim_%ts"
-            image-width="800" image-height="800" image-format="png"
-            enabled="1" />
-</sensei>
