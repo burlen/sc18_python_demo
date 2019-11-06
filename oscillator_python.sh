@@ -9,8 +9,10 @@ grn=`echo -e '\e[32m'`
 blu=`echo -e '\e[36m'`
 wht=`echo -e '\e[0m'`
 
-echo "+ module load sensei/2.1.1-vtk-shared"
-module load sensei/2.1.1-vtk-shared
+export MPLBACKEND=Agg
+
+echo "+ module load sensei/3.0.0-vtk-shared"
+module load sensei/3.0.0-vtk-shared
 
 set -x
 
