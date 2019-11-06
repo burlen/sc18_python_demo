@@ -10,13 +10,16 @@ grn=`echo -e '\e[32m'`
 blu=`echo -e '\e[36m'`
 wht=`echo -e '\e[0m'`
 
+
 echo "+ module use /usr/common/software/sensei/modulefiles"
 module use /usr/common/software/sensei/modulefiles
 
-echo "+ module load sensei/2.1.1-vtk-shared"
-module load sensei/2.1.1-vtk-shared
+echo "+ module load sensei/3.1.0-vtk-shared"
+module load sensei/3.1.0-vtk-shared
 
 set -x
+
+export MPLBACKEND=Agg
 
 cat ./configs/random_2d_${b}_python.xml | sed "s/.*/$blu&$wht/"
 

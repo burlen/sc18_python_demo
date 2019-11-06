@@ -37,7 +37,7 @@ def Execute(adaptor):
     # get the data and ghost arrays
     data = vtk_to_numpy(atts.GetArray(array))
     ghost = vtk_to_numpy(atts.GetArray('vtkGhostType'))
-    ghost.shape = data.shape = (dim[1], dim[0])
+    ghost.shape = data.shape = (dim[2], dim[1], dim[0])
 
     # compute the area above
     ii = np.where((data > threshold) & (ghost == 0))
