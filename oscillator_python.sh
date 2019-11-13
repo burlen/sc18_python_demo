@@ -3,21 +3,18 @@
 n=4
 b=64
 dt=0.05
-script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
 bld=`echo -e '\e[1m'`
 red=`echo -e '\e[31m'`
 grn=`echo -e '\e[32m'`
 blu=`echo -e '\e[36m'`
 wht=`echo -e '\e[0m'`
 
-mkdir -p ./configs
-cp ${script_dir}/configs/* ./configs
-
 echo "+ module use /usr/common/software/sensei/modulefiles"
 module use /usr/common/software/sensei/modulefiles
 
-echo "+ module load sensei/2.1.0-vtk-shared"
-module load sensei/2.1.0-vtk-shared
+echo "+ module load sensei/2.1.1-vtk-shared"
+module load sensei/2.1.1-vtk-shared
 
 set -x
 
